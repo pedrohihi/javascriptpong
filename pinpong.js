@@ -5,6 +5,6 @@ function setup(){
 
 
 function draw(){
-    //aqui vou por cor da "mesa"
-    background(255,255,255);
+    //aqui vou por cor da "'AWWDADADSQWDADWAIYVPOJCmesa"
+    background(148,0,211);
 }
