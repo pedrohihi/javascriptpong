@@ -62,10 +62,10 @@ function criaRaquete(xRaquete, yRaquete, larguraRaquete, alturaRaquete){
 }
 //funçao responsavel por movimentar a raquete
 function movimentaRaquete(){
-    if(KeyIsDown(UP_ARROW)){
+    if(keyIsDown(UP_ARROW)){
         yRaquete -= 10;
 }
-    if(KeyIsDown(DOWN_ARROW)){
+    if(keyIsDown(DOWN_ARROW)){
         yRaquete += 10;
 }
 }
