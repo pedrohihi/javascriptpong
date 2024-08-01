@@ -10,9 +10,9 @@ let yvelocidadeBolinha = 6;
 
 //configura raquete
 let xRaquete =5;
-let yRaquete =150;
-let larguraRaquete =10;
-let alturaRaquete =90;
+let yRaquete = 150;
+let larguraRaquete = 10;
+let alturaRaquete = 90;
 
 function setup(){
     //aqui vou criar minha "mesa"
@@ -44,7 +44,7 @@ function draw(){
 //função bolinha
 function criaBolinha(xBolinha, yBolinha,tamanhoBolinha){
     fill("red");
-    circle (xBolinha,yBolinha,tamanhoBolinha);
+    circle (xBolinha, yBolinha, tamanhoBolinha);
 }
 
 //função move bolinha
@@ -71,7 +71,7 @@ function movimentaRaquete(){
     if(KeyIsDown(UP_ARROW)){
         yRaquete -= 10;
 }
-    if(KeyIsDown(KeyIsDown_ARROW)){
+    if(KeyIsDown(DOWN_ARROW)){
         yRaquete += 10;
 }
 }
