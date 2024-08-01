@@ -35,7 +35,9 @@ function draw(){
     Borda();
 
     criaRaquete(xRaquete, yRaquete, larguraRaquete, alturaRaquete);
-    monvimentaRaquete();
+
+    movimentaRaquete();
+
     colideRaquete();
 }
 
@@ -65,11 +67,11 @@ function criaRaquete(xRaquete, yRaquete, larguraRaquete, alturaRaquete){
     rect(xRaquete, yRaquete, larguraRaquete, alturaRaquete);
 }
 //funçao responsavel por movimentar a raquete
-function monvimentaRaquete(){
-    if(KeyIsdDown(UP_ARROW)){
+function movimentaRaquete(){
+    if(KeyIsDown(UP_ARROW)){
         yRaquete -= 10;
 }
-    if(KeyIsdDown(UP_ARROW)){
+    if(KeyIsDown(KeyIsDown_ARROW)){
         yRaquete += 10;
 }
 }
