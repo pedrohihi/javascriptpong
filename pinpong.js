@@ -40,8 +40,9 @@ function draw(){
 }
 
 //função bolinha
-function criaBolinha(xBolinha, yBolinha,tamBolinha){
-    circle (xBolinha,yBolinha,tamBolinha);
+function criaBolinha(xBolinha, yBolinha,tamanhoBolinha){
+    fill("red");
+    circle (xBolinha,yBolinha,tamanhoBolinha);
 }
 
 //função move bolinha
