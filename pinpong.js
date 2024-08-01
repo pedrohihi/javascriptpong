@@ -24,20 +24,14 @@ function draw(){
     //aqui vou por a cor da "mesa"
     //A cor da mesa é em rgb
     background(128, 128, 0);
-
     //chamando a função cria bolinha para criar a bolinha
     criaBolinha(xBolinha, yBolinha, tamanhoBolinha);
-
     //chamando a função mov bolinha
     moveBolinha();
-
     //chamando a borda
     Borda();
-
     criaRaquete(xRaquete, yRaquete, larguraRaquete, alturaRaquete);
-
     movimentaRaquete();
-
     colideRaquete();
 }
 
