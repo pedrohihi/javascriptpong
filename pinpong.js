@@ -9,21 +9,21 @@ let xvelocidadeBolinha = 6;
 let yvelocidadeBolinha = 6;
 
 //configura raquete
-let xRaquete =5;
+let xRaquete = 5;
 let yRaquete = 150;
 let larguraRaquete = 10;
 let alturaRaquete = 90;
 
 function setup(){
     //aqui vou criar minha "mesa"
-    createCanvas(600,400);
+    createCanvas(600, 400);
 }
 
 function draw(){
     //função responsável pelo "desenho e animação da mesa"
     //aqui vou por a cor da "mesa"
     //A cor da mesa é em rgb
-    background(128,128,0);
+    background(128, 128, 0);
 
     //chamando a função cria bolinha para criar a bolinha
     criaBolinha(xBolinha, yBolinha, tamanhoBolinha);
@@ -42,9 +42,9 @@ function draw(){
 }
 
 //função bolinha
-function criaBolinha(xBolinha, yBolinha,tamanhoBolinha){
-    fill("red");
-    circle (xBolinha, yBolinha, tamanhoBolinha);
+function criaBolinha(xBolinha, yBolinha, tamanhoBolinha){
+    fill("purple");
+    circle(xBolinha, yBolinha, tamanhoBolinha);
 }
 
 //função move bolinha
